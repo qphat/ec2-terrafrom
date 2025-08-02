@@ -1,0 +1,17 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and customize the values
+
+# AWS Configuration
+aws_region = "us-west-1"
+
+# EC2 Configuration
+instance_type = "t3.micro"
+key_name     = "my-terraform-key"  # Replace with your actual key pair name
+
+# Project Configuration
+environment   = "development"
+project_name  = "my-web-server"
+
+# Monitoring and Storage
+enable_monitoring  = true
+root_volume_size   = 20
