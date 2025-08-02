@@ -36,5 +36,3 @@ override.tf.json
 .terraformrc
 terraform.rc
 my-terraform-key.pem
-
-*.pem
